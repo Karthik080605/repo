@@ -1,0 +1,35 @@
+body{
+    background-color: antiquewhite;
+    border: 2px black dashed;
+}
+.container {
+    text-align: center;
+    padding: 10px;
+    animation: fadeIn 2s ease-out;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    background-image: url("c:\Users\namei\OneDrive\Pictures\ladak.jpg");
+}
+#submit {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 25px;
+    background-color: #ff6b6b;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+#Reset {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 25px;
+    background-color: #ff6b6b;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+
+}
+.btn {
+    text-align: center;
+}

@@ -1,0 +1,116 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>The Great Wall of China</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .fade-in {
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        .slide-in {
+            animation: slideIn 1s ease-in-out;
+        }
+        @keyframes slideIn {
+            from {
+                transform: translateX(-100%);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <header class="bg-gray-900 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">The Great Wall of China</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a class="hover:underline" href="#history">History</a></li>
+                    <li><a class="hover:underline" href="#architecture">Architecture</a></li>
+                    <li><a class="hover:underline" href="#distance">Distance</a></li>
+                    <li><a class="hover:underline" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="bg-white py-12 fade-in">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-4">Welcome to the Great Wall of China</h2>
+            <p class="text-lg">Explore the history, architecture, and beauty of one of the world's most iconic landmarks.</p>
+        </div>
+    </section>
+    <section class="py-12 bg-gray-200 slide-in" id="history">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-4">History</h2>
+            <p class="text-lg mb-4">
+                The Great Wall of China is a series of fortifications made of stone, brick, tamped earth, wood, and other materials, generally built along an east-to-west line across the historical northern borders of China to protect the Chinese states and empires against the raids and invasions of the various nomadic groups of the Eurasian Steppe.
+            </p>
+            <p class="text-lg">
+                Several walls were being built as early as the 7th century BC; these, later joined together and made bigger and stronger, are now collectively referred to as the Great Wall. Especially famous is the wall built between 220–206 BC by the first Emperor of China, Qin Shi Huang. Little of that wall remains. The majority of the existing wall was built during the Ming Dynasty (1368–1644).
+            </p>
+        </div>
+    </section>
+    <section class="py-12 bg-white slide-in" id="architecture">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-4">Architecture</h2>
+            <p class="text-lg mb-4">
+                The Great Wall is not a single continuous wall but a collection of walls and fortifications. The wall is built from a variety of materials, including stone, brick, tamped earth, and wood. The design of the wall varies depending on the terrain it traverses, with some sections featuring watchtowers, barracks, and other defensive structures.
+            </p>
+            <p class="text-lg">
+                The wall's construction was a massive undertaking, requiring the labor of hundreds of thousands of workers. The wall's height and width vary, with some sections reaching up to 30 feet high and 15 feet wide. The wall also features numerous watchtowers and fortresses, which were used to house troops and store supplies.
+            </p>
+        </div>
+    </section>
+    <section class="py-12 bg-gray-200 slide-in" id="distance">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-4">Distance from India to China</h2>
+            <p class="text-lg mb-4">
+                The distance between India and China varies depending on the specific locations being measured. For instance, the distance from New Delhi, India to Beijing, China is approximately 3,800 kilometers (2,361 miles) by air. The Great Wall of China is located in northern China, and the distance from New Delhi to the nearest section of the Great Wall is roughly 4,000 kilometers (2,485 miles).
+            </p>
+            <p class="text-lg">
+                Traveling from India to China can be done by air, which is the most common and fastest method. There are also overland routes, but these are much longer and more complex due to the terrain and border crossings.
+            </p>
+        </div>
+    </section>
+    <section class="py-12 bg-white slide-in" id="contact">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-4">Contact</h2>
+            <form class="bg-gray-100 p-6 rounded-lg shadow-lg">
+                <div class="mb-4">
+                    <label class="block text-lg font-medium mb-2" for="name">Name</label>
+                    <input class="w-full p-2 border border-gray-300 rounded-lg" id="name" placeholder="Your Name" type="text"/>
+                </div>
+                <div class="mb-4">
+                    <label class="block text-lg font-medium mb-2" for="email">Email</label>
+                    <input class="w-full p-2 border border-gray-300 rounded-lg" id="email" placeholder="Your Email" type="email"/>
+                </div>
+                <div class="mb-4">
+                    <label class="block text-lg font-medium mb-2" for="message">Message</label>
+                    <textarea class="w-full p-2 border border-gray-300 rounded-lg" id="message" placeholder="Your Message" rows="4"></textarea>
+                </div>
+                <button class="bg-gray-900 text-white px-4 py-2 rounded-lg" type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer class="bg-gray-900 text-white p-4">
+        <div class="container mx-auto text-center">
+            <p>© 2023 The Great Wall of China. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
